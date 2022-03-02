@@ -48,6 +48,17 @@ In this tutorial we use CUB dataset, the smallest among three, to illustrate the
 bash run_save_plk_cub.sh
 ```
 
+**Step 2**: Establish individual VDs:
+```bash
+mkdir dgr_val
+mkdir dgr_val/5way5shot/
+mkdir dgr_val/5way5shot/CUB
+mkdir dgr_val/5way1shot/
+mkdir dgr_val/5way1shot/CUB
+
+bash run_ens_checkII.sh CUB 5 # DeepVoro 5-way 5-shot
+bash run_ens_checkII.sh CUB 1 # DeepVoro 5-way 1-shot
+```
 
 ## References
 
