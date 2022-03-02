@@ -53,6 +53,8 @@ bash run_save_plk_cub.sh
 bash run_individual_vds.sh
 ```
 
+**Step 3**: Establish CIVD: see jupyter notebook "deepvoro.ipynb".
+
 ## References
 
 If you find the software useful please consider citing:

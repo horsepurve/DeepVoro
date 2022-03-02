@@ -23,3 +23,5 @@ bash run_ens_checkII.sh CUB 5 # DeepVoro 5-way 5-shot val set
 bash run_ens_checkII.sh CUB 1 # DeepVoro 5-way 1-shot val set
 sed -i '0,/val/{s/val/XXX/}' run_ens_checkI.sh
 sed -i '0,/dgr_val/{s/dgr_val/XXX/}' pipeline/run.py
+
+mkdir tables
