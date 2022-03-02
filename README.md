@@ -17,6 +17,8 @@
 
 ## Reproducing the results
 
+In this tutorial we use CUB dataset, the smallest in three, to illustrate the DeepVoro workflow.
+
 ## References
 
 If you find the software useful please consider citing:
