@@ -4,8 +4,6 @@
   <b>Few-shot Learning as Cluster-induced Voronoi Diagrams: A Geometric Approach</b>
 </div>
 
-<br />
-
 <div align="center">
   The Tenth International Conference on Learning Representations (ICLR 2022)
 </div>
