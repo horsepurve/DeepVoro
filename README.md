@@ -7,9 +7,13 @@
   <a href="https://arxiv.org/abs/2202.02471">arXiv</a>
 </div>
 
+## Introduction
+
 <p align="center">
   <img src="./img/demo_mnist.png">
 </p>
+
+## Prerequisites
 
 ## References
 
