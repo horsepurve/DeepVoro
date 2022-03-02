@@ -42,9 +42,9 @@ or
 
 In this project we use (parts of) the official implementations of the following works:
 
-[S2M2_fewshot](https://github.com/nupurkmr9/S2M2_fewshot)
-[simple_shot](https://github.com/mileyan/simple_shot)
-[Few_Shot_Distribution_Calibration](https://github.com/ShuoYang-1998/Few_Shot_Distribution_Calibration)
+* [S2M2_fewshot](https://github.com/nupurkmr9/S2M2_fewshot)
+* [simple_shot](https://github.com/mileyan/simple_shot)
+* [Few_Shot_Distribution_Calibration](https://github.com/ShuoYang-1998/Few_Shot_Distribution_Calibration)
 
 We thank the respective authors for open-sourcing their methods, which makes this work possible.
 
