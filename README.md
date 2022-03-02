@@ -33,7 +33,7 @@ Then please follow [S2M2_fewshot](https://github.com/nupurkmr9/S2M2_fewshot) to 
 
 ## Reproducing the results
 
-In this tutorial we use CUB dataset, the smallest among three, to illustrate the DeepVoro workflow.
+In this tutorial we use CUB dataset, the smallest among three, to illustrate the DeepVoro workflow (there should have been a directory "filelists/CUB/CUB_200_2011" storing the CUB images, after the previous steps).
 
 
 
