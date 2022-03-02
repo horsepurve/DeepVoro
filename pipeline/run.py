@@ -197,7 +197,7 @@ for itask in TR:
 
 print('>>> final: {:.2f}±{:.2f}'.format(*s_all))
 #%% at last
-dgr_dict = {'s2m2':'dgr_val', 'rot':'dgr_rot', 'mix':'dgr_mix'} # NOTE: dgr or dgr_val
+dgr_dict = {'s2m2':'XXX', 'rot':'dgr_rot', 'mix':'dgr_mix'} # NOTE: dgr or dgr_val
 dgr_save = dgr_dict[mth]
 if re_dist and args.save_dist:
     if transform == 'beta':

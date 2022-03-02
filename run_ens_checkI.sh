@@ -40,7 +40,7 @@ declare -A biases=( ["miniImagenet"]=0.02 ["CUB"]=0.50 ["tieredImageNet"]=0.10)
 if [ $shot == 5 ]
 then
     bias_from=0.02
-    echo "run 5 shot: bias from "${bias_from}   
+    echo "run 5 shot: bias from "${bias_from}
 else
     bias_from="${biases[$dat]}"
     echo "run 1 shot: bias from "${bias_from}
@@ -82,8 +82,3 @@ python pipeline/run.py --dataname $dat --n_ways 5 --n_shot $shot \
 
 echo ${1}" | "${2}" | "${3}
 grep final $logf | cut -f 3 -d ' '
-
-
-
-
-
