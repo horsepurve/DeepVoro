@@ -53,7 +53,11 @@ bash run_save_plk_cub.sh
 bash run_individual_vds.sh
 ```
 
-**Step 3**: Establish CIVD: see jupyter notebook "deepvoro.ipynb" for details.
+**Step 3**: Establish CIVD: see jupyter notebook "deepvoro.ipynb" for details; you should be able to reproduce the following performance:
+
+<p align="center">
+  <img src="./img/table_3.png">
+</p>
 
 ## References
 
