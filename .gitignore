@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+checkpoints/
+dgr/
+dgr_val/
+filelists/
+log
+
