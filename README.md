@@ -19,11 +19,17 @@ In this work we dive deeper, geometrically, into this line and extend VD/PD to C
 
 ## Prerequisites
 
-Install dependencies via
+Install dependencies via:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+Then please follow [S2M2_fewshot](https://github.com/nupurkmr9/S2M2_fewshot) to prepare the datasets and pretrained models, after which your directories should be like:
+
+> checkpoints/miniImagenet/WideResNet28_10_S2M2_R/470.tar
+> checkpoints/CUB/WideResNet28_10_S2M2_R/255.tar
+> checkpoints/tieredImageNet/WideResNet28_10_S2M2_R/199.tar
 
 ## Reproducing the results
 
