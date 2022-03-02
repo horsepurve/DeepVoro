@@ -1,6 +1,14 @@
 # DeepVoro: Few-shot Learning as Cluster-induced Voronoi Diagrams (ICLR 2022)
 
 <div align="center">
+  Few-shot Learning as Cluster-induced Voronoi Diagrams: A Geometric Approach
+</div>
+
+<div align="center">
+  The Tenth International Conference on Learning Representations (ICLR 2022)
+</div>
+
+<div align="center">
   <a href="https://openreview.net/forum?id=6kCiVaoQdx9">OpenReview</a>
 </div>
 <div align="center">
