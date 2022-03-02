@@ -19,6 +19,12 @@ In this work we dive deeper, geometrically, into this line and extend VD/PD to C
 
 ## Prerequisites
 
+Install dependencies via
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Reproducing the results
 
 In this tutorial we use CUB dataset, the smallest among three, to illustrate the DeepVoro workflow.
