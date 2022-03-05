@@ -112,29 +112,6 @@ class LgRegv(torch.nn.Module):
         y_hat = torch.sigmoid(y_hat)
         return y_hat    
 #%%
-class LgCenter(torch.nn.Module):
-    ''' 
-    use the f(direction) to voronoi center as output
-    '''
-    def __init__(self, dim, nla, xx, yy):
-        super(LgCenter, self).__init__()
-        self.linear = nn.Linear(dim, nla, bias=False)
-        cen = give_center(xx, yy)
-        self.linear.weight.data = torch.from_numpy(cen*2)
-    
-    def forward(self, x):
-        za = self.linear.weight/2
-
-        zx = torch.matmul(x, za.t())
-        z2 = torch.sum(za**2, dim=1)
-        x2 = torch.sum(x**2, dim=1).reshape(-1,1)
-        d2 = -2 * zx + x2 + z2
-                
-        out = 1/d2
-        
-        out = torch.sigmoid(out)
-        return out
-#%%
 def give_center(xx, yy):
     nla     = len(set(yy))
     centers = [np.mean(xx[yy==i,:],axis=0) for i in range(nla)]
