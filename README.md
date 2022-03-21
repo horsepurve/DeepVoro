@@ -96,4 +96,4 @@ In this project we use (parts of) the official implementations of the following 
 
 We thank the respective authors for open-sourcing their methods, which makes this work possible.
 
-If you have any problem please [contact me](mailto:chunweim@buffalo.edu). 
+If you have any problem please [contact me](mailto:chunweim@buffalo.edu).
