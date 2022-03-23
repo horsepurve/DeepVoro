@@ -27,7 +27,7 @@ In this work we dive deeper, geometrically, into this line and extend VD/PD to C
 
 ## Prerequisites
 
-Install dependencies via:
+Install dependencies via: 
 
 ```bash
 pip install -r requirements.txt
